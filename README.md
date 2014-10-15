@@ -16,12 +16,12 @@ It's blank! Let's change that.
 - Almost all html commands have an open tag and a close tag, like `<strong>` (open) and `</strong>` (close)
 - Type in the open and close tags for "html":
 
-	`<html>`
-	`</html>`
+	<html>
+	</html>
 	
 OK, now we need two more sections *between* those two tags: head and body:
 
-	`<html>
+	<html>
 	
 	<head>
 	</head>
@@ -29,11 +29,13 @@ OK, now we need two more sections *between* those two tags: head and body:
 	<body>
 	</body>
 	
-	</html>`
+	</html>
 	
 Now, let's just test this out. Put 'Hello, world!' between the body tags.
 
-	'<body>
+	<body>
 	Hello, world!
-	</body>'
+	</body>
+	
+
 
