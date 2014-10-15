@@ -53,7 +53,7 @@ Head over to the [Highcharts website](http://highcharts.com).
 
 This is where we download the highcharts library. I've already included it for you in the "live demo" folder. It's in a subfolder called 'js' for JavaScript. Let's tell our html document to use it, and another library there called jQuery.
 
-Between the '<head>' tags, put:
+Between the `<head>` tags, put:
 	
 	<script src="js/jquery-1.6.4.min.js" type="text/javascript"></script>
 	<script src="js/highcharts.js" type="text/javascript"></script>
@@ -90,21 +90,21 @@ OK ... Now we're going to make this a school attendance chart, [like this one](h
 
 Here's the data we need:
 
-Date, Attendance
-'Th 1/2', 73.93
-'Fri 1/3', 0
-'Mon 1/6', 89.69
-'Tue 1/7', 72.59
-'Wed 1/8', 89.15
-'Th 1/9', 91.41
-'Fri 1/10', 89.91
-'Mon 1/13', 91.3
-'Tue 1/14', 91.34
-'Wed 1/15', 91.67
-'Th 1/16', 91.74
-'Fri 1/17', 90.58
-'Tue 1/21', 89.22
-'Wed 1/22', 47.1
+	Date, Attendance
+	'Th 1/2', 73.93
+	'Fri 1/3', 0
+	'Mon 1/6', 89.69
+	'Tue 1/7', 72.59
+	'Wed 1/8', 89.15
+	'Th 1/9', 91.41
+	'Fri 1/10', 89.91
+	'Mon 1/13', 91.3
+	'Tue 1/14', 91.34
+	'Wed 1/15', 91.67
+	'Th 1/16', 91.74
+	'Fri 1/17', 90.58
+	'Tue 1/21', 89.22
+	'Wed 1/22', 47.1
 
 And we use [Mr. Data Converter](http://shancarter.github.io/mr-data-converter/) to turn it into the kinds of data Highcharts uses. (Try the JSON - "Column Arrays" option.)
 
